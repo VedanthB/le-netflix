@@ -1,8 +1,6 @@
 import Jumbotron from "./components/jumbotron";
 import jumboData from "./fixtures/jumbo.json";
 
-console.log(jumboData);
-
 export default function App() {
   return (
     <Jumbotron.Container>
