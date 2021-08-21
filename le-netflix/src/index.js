@@ -5,9 +5,9 @@ import "normalize.css";
 import { GlobalStyles } from "./global-styles";
 
 ReactDOM.render(
-  <>
+  <React.StrictMode>
     <GlobalStyles />
     <App />
-  </>,
+  </React.StrictMode>,
   document.getElementById("root")
 );
