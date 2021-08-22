@@ -9,7 +9,7 @@ export default function App() {
       <Route exact path="/browse">
         <Browse />
       </Route>
-      <Route exact path="/signin">
+      <Route exact path={ROUTES.SIGN_IN}>
         <SignIn />
       </Route>
       <Route exact path="/signup">
