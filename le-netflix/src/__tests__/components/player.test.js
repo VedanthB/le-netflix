@@ -11,7 +11,7 @@ describe('<Player />', () => {
       </Player>
     );
 
-    screen.debug();
+    // screen.debug();
     expect(queryByTestId('player')).toBeFalsy();
 
     fireEvent.click(getByText('Play'));
